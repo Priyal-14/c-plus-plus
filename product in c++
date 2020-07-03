@@ -1,0 +1,31 @@
+1.Program to print size of variables:
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int i;
+char ch;
+float f;
+double d;
+cout<<"size of int is:"<<sizeof(i)<<"\n";
+cout<<"size of char is:"<<sizeof(ch)<<"\n";
+cout<<"size of float is:"<<sizeof(f)<<"\n";
+cout<<"size of double is:"<<sizeof(d)<<"\n";
+
+getch();
+}
+
+progarm to print product of two numbers:
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+float a,b,product;
+cout<<"enter two numbers:\n";
+cin>>a>>b;
+product=a*b;
+cout<<"product of two numbers is :"<<product;
+getch();
+}
